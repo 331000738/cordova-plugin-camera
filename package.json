@@ -1,10 +1,10 @@
 {
-  "name": "cordova-plugin-camera",
+  "name": "cordova-plugin-camera-android",
   "version": "5.0.2-dev",
   "description": "Cordova Camera Plugin",
   "types": "./types/index.d.ts",
   "cordova": {
-    "id": "cordova-plugin-camera",
+    "id": "cordova-plugin-camera-android",
     "platforms": [
       "android",
       "ios",
@@ -13,8 +13,8 @@
       "osx"
     ]
   },
-  "repository": "github:apache/cordova-plugin-camera",
-  "bugs": "https://github.com/apache/cordova-plugin-camera/issues",
+  "repository": "github:apache/cordova-plugin-camera-android",
+  "bugs": "https://github.com/apache/cordova-plugin-camera-android/issues",
   "keywords": [
     "cordova",
     "camera",

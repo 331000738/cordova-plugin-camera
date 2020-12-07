@@ -23,9 +23,9 @@ description: Take pictures with the device camera.
 
 |AppVeyor|Travis CI|
 |:-:|:-:|
-|[![Build status](https://ci.appveyor.com/api/projects/status/github/apache/cordova-plugin-camera?branch=master)](https://ci.appveyor.com/project/ApacheSoftwareFoundation/cordova-plugin-camera)|[![Build Status](https://travis-ci.org/apache/cordova-plugin-camera.svg?branch=master)](https://travis-ci.org/apache/cordova-plugin-camera)|
+|[![Build status](https://ci.appveyor.com/api/projects/status/github/apache/cordova-plugin-camera-android?branch=master)](https://ci.appveyor.com/project/ApacheSoftwareFoundation/cordova-plugin-camera-android)|[![Build Status](https://travis-ci.org/apache/cordova-plugin-camera-android.svg?branch=master)](https://travis-ci.org/apache/cordova-plugin-camera-android)|
 
-# cordova-plugin-camera
+# cordova-plugin-camera-android
 
 This plugin defines a global `navigator.camera` object, which provides an API for taking pictures and for choosing images from
 the system's image library.
@@ -42,22 +42,22 @@ Although the object is attached to the global scoped `navigator`, it is not avai
 
 This requires cordova 5.0+
 
-    cordova plugin add cordova-plugin-camera
+    cordova plugin add cordova-plugin-camera-android
 Older versions of cordova can still install via the __deprecated__ id
 
     cordova plugin add org.apache.cordova.camera
 It is also possible to install via repo url directly ( unstable )
 
-    cordova plugin add https://github.com/apache/cordova-plugin-camera.git
+    cordova plugin add https://github.com/apache/cordova-plugin-camera-android.git
 
 
 ## How to Contribute
 
-Contributors are welcome! And we need your contributions to keep the project moving forward. You can[report bugs, improve the documentation, or [contribute code](https://github.com/apache/cordova-plugin-camera/pulls).
+Contributors are welcome! And we need your contributions to keep the project moving forward. You can[report bugs, improve the documentation, or [contribute code](https://github.com/apache/cordova-plugin-camera-android/pulls).
 
 There is a specific [contributor workflow](http://wiki.apache.org/cordova/ContributorWorkflow) we recommend. Start reading there. More information is available on [our wiki](http://wiki.apache.org/cordova).
 
-**Have a solution?** Send a [Pull Request](https://github.com/apache/cordova-plugin-camera/pulls).
+**Have a solution?** Send a [Pull Request](https://github.com/apache/cordova-plugin-camera-android/pulls).
 
 In order for your changes to be accepted, you need to sign and submit an Apache [ICLA](http://www.apache.org/licenses/#clas) (Individual Contributor License Agreement). Then your name will appear on the list of CLAs signed by [non-committers](https://people.apache.org/committer-index.html#unlistedclas) or [Cordova committers](http://people.apache.org/committers-by-project.html#cordova).
 
